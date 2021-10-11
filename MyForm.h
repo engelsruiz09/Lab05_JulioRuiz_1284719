@@ -26,6 +26,7 @@ namespace Lab05JulioRuiz1284719 {
 		Baraja* baraja;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::Button^ button1;
+
 	public:
 	public:
 		Game* game;
@@ -760,6 +761,8 @@ namespace Lab05JulioRuiz1284719 {
 		// 
 		// 
 		// encontre otro bug a ultima hora y es que cuando se saca del mazo se mueve a cualquiera de los otros grupos se muestran todas las cartas no encontre como arreglar eso ;((( 
+		// 
+		// si funciona el programa jugando del mazo a los demas grupos si tiene suerte :d
 		//
 		//
 		// 
