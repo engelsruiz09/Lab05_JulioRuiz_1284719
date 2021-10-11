@@ -757,6 +757,10 @@ namespace Lab05JulioRuiz1284719 {
 		// 
 		// 
 		// el programa tiene un bug en cuando pide la posicion entre las lista tira el error pero cuando saca del mazo a una pila si lo mueve ;( lo que se recomienda es parar la compilacion y volver a hacerlo no puede resolver el error ;/ compasion no califique tan yuquitas ;s
+		// 
+		// 
+		// encontre otro bug a ultima hora y es que cuando se saca del mazo se mueve a cualquiera de los otros grupos se muestran todas las cartas no encontre como arreglar eso ;((( 
+		//
 		//
 		// 
 		//estos metodos void sirven para llenar los listbox
