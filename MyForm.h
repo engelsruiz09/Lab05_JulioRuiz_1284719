@@ -952,7 +952,7 @@ namespace Lab05JulioRuiz1284719 {
 		//esto del evento keydown lo saque de aquihttps://www.youtube.com/watch?v=dFDi1MDQN2U que se parece a C# ;s
 		//esta pagina como me a ayudohttps://www.codeproject.com/Messages/2652900/Re-Event-on-KeyPress.aspx
 		
-	public: System::Void MyForm_KeyDown(System::Object^ sender, System::Windows::Forms::KeyEventArgs^ e) {
+	public: Void MyForm_KeyDown(Object^ sender, KeyEventArgs^ e) {
 		//esta propiedad del keydown sirve para cuando se le de click al boton de inicio y el usuario presione la tecla R que haga que se repartan las cartas
 		if (e->KeyCode == Keys::R)//vamo a ver si sirve ;/             *si funciono *xd
 		{
@@ -985,19 +985,19 @@ namespace Lab05JulioRuiz1284719 {
 
 	}
 		  
-private: System::Void btnIniciar_Click(System::Object^ sender, System::EventArgs^ e) {
+private: Void btnIniciar_Click(Object^ sender, EventArgs^ e) {
 	
 
 }
-private: System::Void MyForm_KeyPress(System::Object^ sender, System::Windows::Forms::KeyPressEventArgs^ e) {
+private: Void MyForm_KeyPress(Object^ sender, System::Windows::Forms::KeyPressEventArgs^ e) {
 
 }
-private: System::Void btnTomar_Click(System::Object^ sender, System::EventArgs^ e) {
+private: Void btnTomar_Click(Object^ sender, EventArgs^ e) {
 	game->takedeck(baraja->deck);
 	lboxMazo->Items->Clear();
 	Imprimirtemp(baraja->deck);
 }
-private: System::Void btnMover_Click(System::Object^ sender, System::EventArgs^ e) {
+private: Void btnMover_Click(Object^ sender, EventArgs^ e) {
 
 		
 	if (String::IsNullOrEmpty(txtPosicion->Text))//para validar 
@@ -1106,7 +1106,7 @@ private: System::Void btnMover_Click(System::Object^ sender, System::EventArgs^ 
 		game->Winner(baraja->deck6);
 		game->Winner(baraja->deck7);
 }		
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+private: Void button1_Click(Object^ sender, EventArgs^ e) {
 	this->Close();
 }
 };
